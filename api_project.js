@@ -1,4 +1,4 @@
-    const URL='https://v6.exchangerate-api.com/v6/30e56e3faa5f6060fb9423b3/latest/usd';
+    const URL='';//use your own api
 
     const dropdowns=document.querySelectorAll(".dropdown select");
     const btn=document.querySelector("form button");
@@ -43,7 +43,7 @@
     }
     //console.log(fromCurr.value.toUpperCase(), toCurr.value.toUpperCase());
     //  const newUrl = `${URL}/${fromCurr}/${toCurr}.json`;
-    const newUrl = `https://v6.exchangerate-api.com/v6/30e56e3faa5f6060fb9423b3/pair/${fromCurr.value}/${toCurr.value}`;
+    const newUrl = ``;//use your own api
 
     let response = await fetch(newUrl);
     let data=await response.json();
@@ -52,6 +52,7 @@
     
     let finalAmount=amtVal*rate;  
     msg.innerText=`${amtVal}${fromCurr.value}=${finalAmount}${toCurr.value}`;
+
 
 
     });
