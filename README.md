@@ -31,7 +31,7 @@ A simple **Currency Converter Web Application** that allows users to convert bet
 ## 📂 Project Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/currency-converter.git
+   git clone https://github.com/umarazlan/CurrencyConverter-by-using-html-css-and-javascript.git
 
 2.Open the project folder:
 
